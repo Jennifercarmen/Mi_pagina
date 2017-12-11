@@ -40,12 +40,10 @@ ul a:hover{
   color: #000;
 }
 
-
-a {
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+.box-armario {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
 }
 .container {
   margin: 0 auto;
@@ -58,7 +56,34 @@ a {
       height: 90px;
 }
 
+/* botones */
+.btn {
+  display: inline-block;
+  padding: 10px;
+  font-size: 90%;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
+/* buy btn */
+.btn-buy {
+  background: #27AE60;
+  color: #fff;
+}
+
+.btn-buy:hover {
+  background: #2ECC71;
+}
+
+/* btn-siguenos btn */
+.btn-siguenos {
+  background: #2980B9;
+  color: #fff;
+}
+
+.btn-siguenos:hover {
+  background: #3498DB;
+}
 /* Header */
 img.outfit-img {
   width: 350px;

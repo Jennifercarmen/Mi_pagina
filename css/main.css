@@ -3,15 +3,124 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  margin: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  	box-sizing: border-box;
 }
-/* Grid */
+
+/* Menu */
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  background: #2e2e2a;
+  line-height: 40px;
+  overflow: auto;
+  float: right;
+}
+li{
+  width: 100px;
+  text-align: center;
+  float: left;
+}
+a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+ul a:hover{
+  background: #f9a91a;
+  color: #000;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
 .container {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
 }
+
+
+.row .menu-md{
+      background-color: #343a40;
+      height: 90px;
+}
+
+
+/* Header */
+img.card-img-top {
+width: 300px;
+    height: 400px;
+	}
+.header {
+    min-height: 300px;
+    background: url('../assets/images/slide4.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.box-footer{
+	box-sizing: border-box;
+	width: 377px;
+	float: left;
+
+	height: 168px;
+	margin-bottom: 52px;
+}
+.list-footer {
+	padding-left: 0;
+	list-style: none;
+}
+.foot {
+	color: white;
+	border: 1px solid;
+	padding: 10px;
+  background-color: #343a40;  
+}
+.text-center{
+  text-align: center;
+}
+.list-social {
+	display: inline-block;
+}
+.btn-footer {
+	font-size: 20px;
+	line-height: 45px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.box-footer {
+	box-sizing: border-box;
+	display: inline-block;
+	height:  165px;
+	width: 373px;
+}
+
+
+/* Grid system */
+
 .row::after {
   content: "";
   display: table;
@@ -94,6 +203,7 @@ body {
   margin-left: 100%;
 }
 @media (min-width: 768px) {
+	
   .col-sm-1 {
     width: 8.33333333%;
   }
@@ -282,3 +392,6 @@ body {
     display: block;
   }
 }
+
+
+

@@ -49,7 +49,6 @@ a {
 }
 .container {
   margin: 0 auto;
-  max-width: 1200px;
   width: 100%;
 }
 
@@ -61,10 +60,10 @@ a {
 
 
 /* Header */
-img.card-img-top {
-width: 300px;
-    height: 400px;
-	}
+img.outfit-img {
+  width: 350px;
+  height: 400px;
+}
 .header {
     min-height: 300px;
     background: url('../assets/images/slide4.jpg') ;
@@ -202,6 +201,8 @@ img {
 .col-xs-offset-12 {
   margin-left: 100%;
 }
+
+
 @media (min-width: 768px) {
 	
   .col-sm-1 {
